@@ -4,9 +4,9 @@ import com.cg.healthify.pojo.WeightLog;
 
 public interface WeightLogDAO {
 
-	public void addUserWeight(WeightLog weight);
-	public void updateUserWeight(WeightLog weight);
-	public void deleteUserWeight(WeightLog weight);
-	public void findUserWeight(WeightLog weight);
+	public WeightLog addUserWeight(WeightLog weight);
+	public WeightLog updateUserWeight(WeightLog weight);
+	public WeightLog deleteUserWeight(WeightLog weight);
+	public WeightLog findUserWeight(WeightLog weight);
 
 }
